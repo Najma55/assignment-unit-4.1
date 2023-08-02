@@ -22,10 +22,12 @@ console.log('Hello,' ,helloName);
 console.log('Hello,' , helloName());
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
+function addNumbers(firstNumber, secondNumber){
+let answer = firstNumber + secondNumber
+return answer;
   // return firstNumber + secondNumber;
 }
-
+console.log('add two numbers.',addNumbers(5,20))
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree() {
